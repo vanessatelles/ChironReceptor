@@ -17,6 +17,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 package nodomain.freeyourgadget.gadgetbridge;
 
+
 import android.annotation.TargetApi;
 import android.app.Application;
 import android.app.NotificationChannel;
@@ -70,6 +71,10 @@ import nodomain.freeyourgadget.gadgetbridge.util.GB;
 import nodomain.freeyourgadget.gadgetbridge.util.GBPrefs;
 import nodomain.freeyourgadget.gadgetbridge.util.LimitedQueue;
 import nodomain.freeyourgadget.gadgetbridge.util.Prefs;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 
 import static nodomain.freeyourgadget.gadgetbridge.util.GB.NOTIFICATION_CHANNEL_ID;
 
@@ -702,4 +707,11 @@ public static String packageNameToPebbleMsgSender(String packageName) {
             return "Gadgetbridge";
         }
     }
+
+    private DatabaseReference mDatabase;
+    // Write a message to the database
+
+
+
+
 }

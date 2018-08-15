@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "652705781894",
+    "firebase_url": "https://gadgetbridge-master-copia.firebaseio.com",
+    "project_id": "gadgetbridge-master-copia",
+    "storage_bucket": "gadgetbridge-master-copia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652705781894:android:7845ecb707322d9a",
+        "android_client_info": {
+          "package_name": "nodomain.freeyourgadget.gadgetbridge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652705781894-u22cnshkm406itj8ie9lqk3i11hhnvke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nodomain.freeyourgadget.gadgetbridge",
+            "certificate_hash": "f46e1fd9733a63cdee94b723073bd084fadcda55"
+          }
+        },
+        {
+          "client_id": "652705781894-j3nkv3hjnuu17tn4126vdgajd6tifuer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNce0IKyfvhJuAo_s7eDdmvWe8NPwHt-s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652705781894-j3nkv3hjnuu17tn4126vdgajd6tifuer.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
